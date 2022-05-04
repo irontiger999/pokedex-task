@@ -12,6 +12,7 @@ export function PrimaryButton(props: ButtonProps) {
       {...rest}
       _hover={{
         background: theme.colors.bg.input,
+        border: `1px solid ${theme.colors.bg.primary}`,
         color: theme.colors.text.primary,
         boxShadow: "none",
       }}
@@ -20,6 +21,7 @@ export function PrimaryButton(props: ButtonProps) {
       }}
       _active={{
         background: theme.colors.bg.input,
+        border: `1px solid ${theme.colors.bg.primary}`,
         color: theme.colors.text.primary,
         boxShadow: "none",
       }}
